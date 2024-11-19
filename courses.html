@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="sub-header2">
+        <nav>
+
+            <a href="index.html"><img src="pictures/eduford_img/logo.png" alt="logo"></a>
+            <div class="nav-links">
+                <span class="material-icons" onclick="hideMenu()">close</span>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="courses.html">COURSES</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <span class="material-icons" onclick="showMenu()">menu</span>
+        </nav>
+        <div class="textbox">
+            <h1>Our Courses</h1>
+        </div>
+    </header>
+ <!-- courses section -->
+  <section class="courses">
+<h1>Course We Offer</h1>
+<p>Lorem ipsum dolor sit amet consectetur. Lorem, ipsum dolor.</p>
+<div class="rows">
+    <div class="cols">
+        <h3>Intermediate</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat inventore atque cum distinctio sequi quisquam rerum beatae nulla excepturi molestias?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam dignissimos magnam quaerat.
+        </p>
+    </div>
+    <div class="cols">
+        <h3>Degree</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat inventore atque cum distinctio sequi quisquam rerum beatae nulla excepturi molestias?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam dignissimos magnam quaerat.
+        </p>
+    </div>
+    <div class="cols">
+        <h3>Post Graduation</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat inventore atque cum distinctio sequi quisquam rerum beatae nulla excepturi molestias?Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam dignissimos magnam quaerat.
+        </p>
+    </div>
+</div>
+  </section>
+  <section class="facilities">
+    <h1>Our facilities</h1>
+    <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit.</p>
+<div class="rows">
+    <div class="f-cols">
+        <img src="pictures/eduford_img/library.png" alt="our library">
+        <h3>World Class Library</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos, perspiciatis! Lorem, ipsum dolor.</p>
+    </div>
+    <div class="f-cols">
+        <img src="pictures/eduford_img/basketball.png" alt="play ground">
+        <h3>Largest Play Ground</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos, perspiciatis! Lorem, ipsum dolor.</p>
+    </div>
+    <div class="f-cols">
+        <img src="pictures/eduford_img/cafeteria.png" alt="our cafeteria">
+        <h3>Tasty And Healthy Food</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos, perspiciatis! Lorem, ipsum dolor.</p>
+    </div>
+</div>
+</section>
+<footer>
+    <h3>About Us</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae cupiditate odio optio repellendus voluptatem.</p>
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-linkedin"></i>
+    <i class="fa-brands fa-github"></i>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-twitter"></i>
+    <p>Made With <i class="fa-solid fa-heart"></i> by Urooj Fatima</p>
+
+</footer>
+
+
+    <!-- adding javascript -->
+     <script>
+   
+  const   navLinks = document.querySelector('.nav-links')
+ function showMenu(){
+    navLinks.style.right = "0";
+ }
+ function hideMenu(){
+    navLinks.style.right = "-200px";
+ }
+     </script>
+</body>
+</html>

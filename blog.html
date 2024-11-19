@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <header class="sub-header3">
+        <nav>
+
+            <a href="index.html"><img src="pictures/eduford_img/logo.png" alt="logo"></a>
+            <div class="nav-links">
+                <span class="material-icons" onclick="hideMenu()">close</span>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="courses.html">COURSES</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <span class="material-icons" onclick="showMenu()">menu</span>
+        </nav>
+        <div class="textbox">
+            <h1>Our Certificate & Online Programs for 2024</h1>
+        </div>
+    </header>
+<div class="blog-content">
+    <div class="rows">
+        <div class="blog-left">
+            <img src="pictures/eduford_img/certificate.jpg" alt="image">
+            <h3>Our Programs for 2024</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt natus, consequuntur, quod veniam quaerat itaque assumenda quidem, praesentium quae quas ipsam accusamus modi eum fuga eveniet deserunt iusto rem cupiditate nostrum tempora amet. Eius ratione provident eum ut quos dicta velit libero quod beatae. Adipisci?</p>
+
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit ad a minima ipsam laboriosam adipisci quasi odit dicta modi delectus itaque ducimus veritatis sed, ratione at architecto dolore voluptas voluptates minus, alias perspiciatis quis! Aliquid minus quam autem? Incidunt, nostrum fuga! Ipsam libero magnam, repudiandae sunt deserunt est maxime aliquam laborum possimus incidunt. Architecto vitae in consequuntur modi asperiores quisquam animi culpa. Deserunt quod, laboriosam perspiciatis ullam quo eum qui doloremque ex enim corrupti incidunt iusto dolorem labore. A illo cum libero voluptate nihil veritatis officia, eius ad quas harum adipisci nesciunt modi facilis perspiciatis aliquid aut voluptatibus inventore tempora!</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem a consequatur culpa, dolores veniam alias dicta! A ratione quae placeat error aliquam ut non! Enim non, repellat laborum minima exercitationem laboriosam modi voluptates ab labore? Voluptates beatae similique sapiente a? Nobis ipsa in commodi quos impedit laboriosam ducimus est veritatis aperiam ratione cum magnam totam laudantium, quas, assumenda incidunt ex molestiae, ab dolores id. Optio pariatur minus suscipit accusantium culpa.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quasi nisi, fuga placeat atque, quisquam voluptate unde aspernatur suscipit error totam. Obcaecati dolorum, sapiente natus eveniet tenetur atque perferendis, nobis sed vero hic fuga et veritatis praesentium harum, nostrum iste distinctio incidunt assumenda similique velit commodi ullam sunt at quos? Facilis nesciunt porro rem maxime doloremque natus vitae recusandae. Beatae!</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, obcaecati ad consequatur voluptates inventore expedita minus alias autem. Ad consectetur similique ab aut aliquam fugit odio ullam eum hic quos.</p>
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>27</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>32</span>
+            </div>
+            <div>
+                <span>Computer Science</span>
+                <span>15</span>
+            </div>
+            <div>
+                <span>AutoCAD</span>
+                <span>34</span>
+            </div>
+            <div>
+                <span>Journolism</span>
+                <span>56</span>
+            </div>
+            <div>
+                <span>Commerce</span>
+                <span>16</span>
+            </div>
+        </div>
+    </div>
+    <section class="comment-box">
+        <h3>Post Your Comment Here</h3>
+        <input type="text" placeholder="Enter Your Name">
+        <input type="email" placeholder="Enter Your Email">
+        <textarea name="comment-textarea" id="" placeholder="Write Your Comment Here"></textarea>
+        <button type="submit" class="about-btn head-btn">Post Comment</button>
+    </section>
+</div>
+
+
+    <footer>
+        <h3>About Us</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae cupiditate odio optio repellendus voluptatem.</p>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-github"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <p>Made With <i class="fa-solid fa-heart"></i> by Urooj Fatima</p>
+    
+    </footer>
+    
+    
+        <!-- adding javascript -->
+         <script>
+       
+      const   navLinks = document.querySelector('.nav-links')
+     function showMenu(){
+        navLinks.style.right = "0";
+     }
+     function hideMenu(){
+        navLinks.style.right = "-200px";
+     }
+         </script>
+</body>
+</html>
